@@ -18,9 +18,14 @@
 + Скорость работы LFO на каждом из блоков.
 + Скорость работы Envelope на каждом из блоков.
 
-## Как работает
-## Как собрать
+[## Как работает](How%20it%20works/README.MD)
+[## Как собрать](How%20to%20assemble/README.MD)
 [## Схема](Schematic/Schematic_TouchDrone%20MK2_2022-10-09.pdf)
 [## GERBER - Панель](PCB/Gerber_PANEL.zip)
 [## GERBER - Основная плата](PCB/Gerber_MOTHER.zip)
 [## GERBER - Нижнаяя плата](PCB/Gerber_DNISHE.zip) 
+
+! [Panel](Image/Panel.png)
+! [PCBT](Image/PCB%20T.png)
+! [PCBB](Image/PCB%20B.png)
+! [DNO](Image/DNO.pngs)
