@@ -25,7 +25,7 @@
 [## GERBER - Основная плата](PCB/Gerber_MOTHER.zip)
 [## GERBER - Нижнаяя плата](PCB/Gerber_DNISHE.zip) 
 
-! [Panel](Image/Panel.png)
-! [PCBT](Image/PCB%20T.png)
-! [PCBB](Image/PCB%20B.png)
-! [DNO](Image/DNO.pngs)
+![Panel](Image/Panel.png)
+![PCBT](Image/PCB%20T.png)
+![PCBB](Image/PCB%20B.png)
+![DNO](Image/DNO.pngs)
