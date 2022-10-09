@@ -18,12 +18,12 @@
 + Скорость работы LFO на каждом из блоков.
 + Скорость работы Envelope на каждом из блоков.
 
-## [Как работает](How%20it%20works/README.MD)</br>
-## [Как собрать](How%20to%20assemble/README.MD)</br>
-## [Схема](Schematic/Schematic_TouchDrone%20MK2_2022-10-09.pdf)</br>
-## [GERBER - Панель](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_PANEL.zip)</br>
-## [GERBER - Основная плата](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_MOTHER.zip)</br>
-## [GERBER - Нижнаяя плата](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_DNISHE.zip) </br>
+### [Как работает](How%20it%20works/README.MD)
+### [Как собрать](How%20to%20assemble/README.MD)
+### [Схема](Schematic/Schematic_TouchDrone%20MK2_2022-10-09.pdf)
+### [GERBER - Панель](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_PANEL.zip)
+### [GERBER - Основная плата](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_MOTHER.zip)
+### [GERBER - Нижнаяя плата](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_DNISHE.zip)
 
 ![Panel](Image/Panel.png)
 ![PCBT](Image/PCB%20T.png)
