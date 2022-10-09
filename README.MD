@@ -32,4 +32,4 @@
 
 ![PCBT](Image/PCB%20T.png)
 ![PCBB](Image/PCB%20B.png)
-![DNO](Image/DNO.pngs)
+![DNO](Image/DNO.png)
