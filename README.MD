@@ -1,5 +1,7 @@
 Это проект полностью аналогового полифонического дрон синтезатора.
 
+![Panel](Image/Panel.png)
+
 На борту:
 + 8 Генераторов звука (6 из них с выбираемой формой волны: Треугольник/Квадрат)
 + 8 Генераторов низкой частоты (LFO) на каждый из голосов для модуляции высоты звука.
@@ -20,12 +22,12 @@
 
 ### [Как работает](How%20it%20works/README.MD)
 ### [Как собрать](How%20to%20assemble/README.MD)
-### [Схема](Schematic/Schematic_TouchDrone%20MK2_2022-10-09.pdf)
+### [Схема в PDF](Schematic/Schematic_TouchDrone%20MK2_2022-10-09.pdf)
+### [Список Комплектующих](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/blob/main/BOM/README.md)
 ### [GERBER - Панель](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_PANEL.zip)
 ### [GERBER - Основная плата](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_MOTHER.zip)
 ### [GERBER - Нижнаяя плата](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_DNISHE.zip)
 
-![Panel](Image/Panel.png)
 ![PCBT](Image/PCB%20T.png)
 ![PCBB](Image/PCB%20B.png)
 ![DNO](Image/DNO.pngs)
