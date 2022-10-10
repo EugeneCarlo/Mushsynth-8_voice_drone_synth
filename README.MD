@@ -43,7 +43,7 @@
 ### [Как работает](How%20it%20works/README.MD)
 ### [Как собрать](How%20to%20assemble/README.MD)
 ### [Схема в PDF](Schematic/Schematic_TouchDrone%20MK2_2022-10-09.pdf)
-### [Список Комплектующих](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/blob/main/BOM/README.md)
+### [Список Комплектующих](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/blob/main/BOM/README.MD)
 ### [GERBER - Панель](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_PANEL.zip)
 ### [GERBER - Основная плата](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_MOTHER.zip)
 ### [GERBER - Нижнаяя плата](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_DNISHE.zip)
