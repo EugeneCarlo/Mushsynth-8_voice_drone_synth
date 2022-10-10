@@ -71,7 +71,7 @@
 
 | Номинал | Описание | Количество |
 | ------ | ----------- | ----------- |
-| DC JACK | DC005 | 1 шт |
+| [DC JACK](https://sl.aliexpress.ru/p?key=Wsxjvj) | DC005 | 1 шт |
 | [OUT JACK](https://sl.aliexpress.ru/p?key=L9juum) | PJ-309 | 1 шт |
 | [FPC](https://sl.aliexpress.ru/p?key=UmjuIO) | 0.5mm 10 pin | 2 шт |
 | [FFC](https://sl.aliexpress.ru/p?key=Jujup7) | 0.5mm 10 pin | 1 шт |
