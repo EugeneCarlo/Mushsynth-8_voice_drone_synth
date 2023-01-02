@@ -49,7 +49,7 @@
 | [L78M05](https://sl.aliexpress.ru/p?key=f5juhI) | DPAK | 2 шт |
 | [2N3904](https://sl.aliexpress.ru/p?key=71juLh) | SOT-23-3 | 35 шт |
 | NOISE | SOT-23-3 или TO-92 | 1 шт |
-| [LL4148](https://sl.aliexpress.ru/p?key=jEjuOS) | SOD-123 | 32 шт |
+| [LL4148](https://sl.aliexpress.ru/p?key=jEjuOS) | SOD-123 | 40 шт |
 | [TL072](https://sl.aliexpress.ru/p?key=FDjuBT) | SOIC-8 | 26 шт |
 | [LM13700](https://sl.aliexpress.ru/p?key=unjuOG) | SOIC-16 | 5 шт |
 | [PT2399](https://sl.aliexpress.ru/p?key=1pjuHk) | SOIC-16 | 1 шт |
