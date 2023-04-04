@@ -3,7 +3,7 @@
 Это проект полностью аналогового полифонического дрон синтезатора с сенсорной клавиатурой.
 #### В данном проекте допущено несколько ошибок, пожалуйста, дождитесь обновления проекта перед сборкой.
 \n
-\n
+\n\n\n
 #### English language will be added soon, for comfortable assembly in other countries.
 #### There are several errors in this project, please wait for the project to update before building.
 #### Please wait.
