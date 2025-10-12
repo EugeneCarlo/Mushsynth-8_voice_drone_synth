@@ -45,6 +45,7 @@ The instrument was intentionally designed using simple and affordable components
 ### [GERBER - Top Panel](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_Mushsynth-8-(1.3-ver)_PCB_Top.zip)
 ### [GERBER - Mother](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_Mushsynth-8-(1.3-ver)_PCB_Mother.zip)
 ### [GERBER - Low Panel](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_Mushsynth-8-(1.3-ver)_PCB_Low-Mods.zip)
+### [Sketch For MIDI](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/Firmware/SketchMushsynth.ino)
 ### [YouTube](https://www.youtube.com/watch?v=eLmXopYQQZY)
 
 ![PCBT](Image/Back.jpg)
@@ -111,6 +112,7 @@ The instrument was intentionally designed using simple and affordable components
 ### [GERBER — Верхняя панель](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_Mushsynth-8-(1.3-ver)_PCB_Top.zip)
 ### [GERBER — Основная плата](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_Mushsynth-8-(1.3-ver)_PCB_Mother.zip)
 ### [GERBER — Нижняя панель](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_Mushsynth-8-(1.3-ver)_PCB_Low-Mods.zip)
+### [Прошивка для MIDI](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/Firmware/SketchMushsynth.ino)
 ### [Видео на YouTube](https://www.youtube.com/watch?v=eLmXopYQQZY)
 
 ---
