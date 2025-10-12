@@ -1,7 +1,7 @@
 # Mushsynth-8 — Analog Polyphonic Drone Synthesizer
 
-Mushsynth-8 is a fully analog 8-voice polyphonic drone synthesizer with a touch keyboard.
-You can build it yourself — all necessary files are available on my GitHub.
+#### Mushsynth-8 is a fully analog 8-voice polyphonic drone synthesizer with a touch keyboard.
+##### You can build it yourself — all necessary files are available on my GitHub.
 
 ![Mushsynth-8](Image/Mushsynth-8.jpg)
 
@@ -11,7 +11,7 @@ It eliminates the wired connection, optimizes component values, adds a universal
 Each voice is an independent monophonic subtractive synthesizer, combined into a common low-pass filter and delay.
 The instrument was intentionally designed using simple and affordable components, making it easy to assemble and modify.
 
-Main Features:
+**Main Features:**
 + 8 analog VCOs (Triangle / Square waveform)
 + 8 LFOs with speed and depth control for oscillator modulation
 + 8 envelope generators (Attack / Decay) for individual VCAs
