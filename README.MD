@@ -52,7 +52,7 @@ The instrument was intentionally designed using simple and affordable components
 ![DNO](Image/MIDI.jpg)
 
 
-# 🎛️ Mushsynth-8 — Аналоговый полифонический дрон-синтезатор
+# Mushsynth-8 — Аналоговый полифонический дрон-синтезатор
 
 #### Mushsynth-8 — это полностью аналоговый 8-голосный полифонический дрон-синтезатор с сенсорной клавиатурой.  
 ##### Вы можете собрать его самостоятельно — все необходимые файлы доступны на моём GitHub.
@@ -67,7 +67,7 @@ The instrument was intentionally designed using simple and affordable components
 
 ---
 
-## ⚙️ Основные характеристики
+## Основные характеристики
 
 + 8 аналоговых генераторов (VCO) с формами волны **Треугольник / Квадрат**
 + 8 LFO с регулировкой **скорости** и **глубины** модуляции
@@ -85,7 +85,7 @@ The instrument was intentionally designed using simple and affordable components
 
 ---
 
-## 🎚️ Органы управления
+## Органы управления
 
 **Для каждого голоса:**  
 `Wave`, `Pitch`, `Depth`, `Speed`, `Attack`, `Decay`, `Level`  
@@ -103,7 +103,7 @@ The instrument was intentionally designed using simple and affordable components
 
 ---
 
-## 📎 Материалы и документация
+## Материалы и документация
 
 ### [Как это работает](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/blob/main/How_it_works/README.MD)
 ### [Полная схема (PDF)](Schematic/Schematic_Mushsynth-8-(1.3-ver).pdf)
@@ -118,7 +118,3 @@ The instrument was intentionally designed using simple and affordable components
 ![PCBT](Image/Back.jpg)
 ![PCBB](Image/FFC.jpg)
 ![DNO](Image/MIDI.jpg)
-
----
-
-🎛️ *Просто. Аналогово. Расширяемо.*
