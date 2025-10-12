@@ -3,7 +3,7 @@ I made a polyphonic synth from improvised and cheap parts.
 It came out musically enough.
 Now I am often asked to build, but I’m not interested, so I posted the entire project for self-assembly.
 
-![Mushsynth-8](Image/Mushsynth-8)
+![Mushsynth-8](Image/Mushsynth-8.jpg)
 
 This is a polyphonic subtractive synthesizer for 8 voices.
 
@@ -38,21 +38,21 @@ Technicial Specifications:
 The synthesizer consists of 3 PCB on which all components are placed.
 The circuit is completely analog, so a lot of components came out (about 750)
 
-![Mushsynth-8](Image/Back)
+![Mushsynth-8](Image/Back.jpg)
 
 Below is some information about the circuit that I used.
 
 For sensors, I used TTP223 microcircuits, because they are affordable and can work in two modes (hold and momentary)
 You can set the sensitivity of the capacitors
-![Touch](Schematic/Touch)
+![Touch](Schematic/Touch.png)
 
 The VCO was made on one OpAmp LM358, according to some of the simplest schemes from the Internet, but it works well and gives out two signals (a triangle and a square)
 
-![VCO](Schematic/VCO)
+![VCO](Schematic/VCO.png)
 To modulate the pitch, I made an LFO.
 I also used LM358 and added a speed indication through a transistor.
 
-![LFO](Schematic/LFO)
+![LFO](Schematic/LFO.png)
 Then the signal is sent to the VCA, I could not find a suitable working example that would work well from + 9v, so I had to experiment, but I was satisfied with the result, this circuit works stably.
 I used lm13700 because they are clear to me and work in different voltage ranges.
 
@@ -60,21 +60,21 @@ I used lm13700 because they are clear to me and work in different voltage ranges
 To control the VCA, I needed an envelope generator, I also decided to use the lm358 and made a fairly classic circuit, but I used only a single-polar supply.
 I also added an indication of operation through a transistor, as in the LFO.
 
-![Envelope](Schematic/Envelope)
+![Envelope](Schematic/Envelope.png)
 I made 8 of these heads and decided that something was missing.
 Therefore, I decided to add a white noise generator, I took a circuit from a noise toaster from mfos.
 I liked the 2n5551 transistors, they are cheap, affordable and always stable noise.
 
-![Noise](Schematic/Noise)
+![Noise](Schematic/Noise.png)
 It still wasn’t enough for me.
 Then I decided to add a filter and a delay.
 I used quite popular schemes, I think many of them collected them.
 
-![VCF_DELAY](Schematic/VCF_Delay)
+![VCF_DELAY](Schematic/VCF_Delay.png)
 I liked the result and many musicians were interested in the project, so I decided to share it with you.
 
 I connected MIDI only to version 1.3 and used an Arduino Nano, 6N137 and several transistors to reduce the current load on the Arduino.
-![MIDI](Schematic/MIDI)
+![MIDI](Schematic/MIDI.png)
 
 I sent out about 10 build kits and everyone did it just like me, even the most beginners.
 The assembly is not difficult, but it took me about 15 hours.
