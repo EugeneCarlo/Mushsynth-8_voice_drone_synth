@@ -76,5 +76,5 @@ I liked the result and many musicians were interested in the project, so I decid
 I connected MIDI only to version 1.3 and used an Arduino Nano, 6N137 and several transistors to reduce the current load on the Arduino.
 ![MIDI](../Schematic/MIDI.png)
 
-I sent out about 10 build kits and everyone did it just like me, even the most beginners.
-The assembly is not difficult, but it took me about 15 hours.
+**I sent out about 10 build kits and everyone did it just like me, even the most beginners.<br>
+The assembly is not difficult, but it took me about 15 hours.**
