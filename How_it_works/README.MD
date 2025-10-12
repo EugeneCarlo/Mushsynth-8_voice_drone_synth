@@ -60,12 +60,12 @@ I used lm13700 because they are clear to me and work in different voltage ranges
 To control the VCA, I needed an envelope generator, I also decided to use the lm358 and made a fairly classic circuit, but I used only a single-polar supply.<br>
 I also added an indication of operation through a transistor, as in the LFO.
 
-![Envelope](../Schematic/Envelope.png)
+![Envelope](../Schematic/ENVELOPE.png)
 I made 8 of these heads and decided that something was missing.<br>
 Therefore, I decided to add a white noise generator, I took a circuit from a noise toaster from mfos.<br>
 I liked the 2n5551 transistors, they are cheap, affordable and always stable noise.
 
-![Noise](../Schematic/Noise.png)
+![Noise](../Schematic/NOISE.png)
 It still wasn't enough for me.<br>
 Then I decided to add a filter and a delay.<br>
 I used quite popular schemes, I think many of them collected them.
