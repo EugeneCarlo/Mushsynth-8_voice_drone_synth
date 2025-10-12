@@ -1,80 +1,52 @@
-# Mushsynth-8 (Drone Synth)
+# Mushsynth-8 — Analog Polyphonic Drone Synthesizer
 
-Это проект полностью аналогового полифонического дрон синтезатора с сенсорной клавиатурой.
-#### В данном проекте допущено несколько ошибок, пожалуйста, дождитесь обновления проекта перед сборкой.
-<br/>
+Mushsynth-8 is a fully analog 8-voice polyphonic drone synthesizer with a touch keyboard.
+You can build it yourself — all necessary files are available on my GitHub.
 
-#### There are several errors in this project, please wait for the project to update before building.
-#### English language will be added soon, for comfortable assembly in other countries.
-#### Please wait.
-<br/>
+![Mushsynth-8](Image/Mushsynth-8)
 
-### Обновление 02.01.2023
-``` 
-+ Установленны кнопки вместо тумблеров.
-+ Увеличен диапазон осцилляторов.
-+ Исправленно направление ручек: SPEED и RESONANCE.
-+ Отлажена скорость затухания DECAY.
-+ Исправлена яркость светодиодов скорости LFO.
-+ Оптимизирован список комплектующих.
-+ Исправленна ошибка на панели.
-+ Добавленны пины для подключения панели проводами.
-+ Добавлены пины для удобного подключения CV и GATE разъемов.
-+ Добавлены пины для внешнего управления скоростью дилея и частотой фильтра.
-+ Добавлен пин для подключения внешнего аудио источника.
-+ На нижнюю панель добавлени генератор Gate сигналов, счетчик и дополнительный LFO.
-+ Удален усилитель для наушников.
-+ Исправлены ошибки и оптимизированы подключения гнезд, увеличена макетная плата.
-+ Обновленна схема в PDF.
-+ Обновлены файлы GERBER и BOM.
-```
+This is an updated version 1.3.
+It eliminates the wired connection, optimizes component values, adds a universal MIDI input (gates only), an external audio input, and a more convenient FFC cable.
 
-![Panel](Image/Panel.png)
+Each voice is an independent monophonic subtractive synthesizer, combined into a common low-pass filter and delay.
+The instrument was intentionally designed using simple and affordable components, making it easy to assemble and modify.
 
-На борту:
-+ 8 Генераторов звука (6 из них с выбираемой формой волны: Треугольник/Квадрат)
-+ 8 Генераторов низкой частоты (LFO) на каждый из голосов для модуляции высоты звука.
-+ 8 Генераторов огибающей (Envelope) на каждый из голосов для управления VCA каждого голоса.
-+ 8 Сенсорных датчиков работающих в двух режимах (С фиксацией и без).
-+ Генератор белого шума.
-+ Микшер для управления громкостью каждого из голосов.
-+ Общий фильтр низких частот (один на все голоса).
-+ Общий дилей (один на все голоса).
-+ Возможность подключения внешних устройств для управления с помощью CV/GATE (опционально).
-+ Выход под наушники (опционально).
-+ Макетная плата для дополнений или эксперементов.
+Main Features:
++ 8 analog VCOs (Triangle / Square waveform)
++ 8 LFOs with speed and depth control for oscillator modulation
++ 8 envelope generators (Attack / Decay) for individual VCAs
++ 8 individual volume controls
++ Capacitive touch sensors (two modes — hold and momentary)
++ Common low-pass filter and delay (PT2399)
++ White noise generator with separate level control
++ CV / GATE inputs for each voice
++ Mono output (6.3 mm jack)
++ Powered by 9V adapter
++ Prototype area (breadboard) for experiments
++ MIDI 3.5mm universal polarity (Only GATE's)
++ External audio input
 
-Раздельная индикация работы всех блоков отображает:
-+ Статус работы сенсоров либо гейта.
-+ Скорость работы LFO на каждом из блоков.
-+ Скорость работы Envelope на каждом из блоков.
+**Control Elements**
 
-### Что по ручкам:<p>
-**Wave** — Выбор формы волны генератора (Треугольник/Квадрат).<br>
-**Pitch** — Высота звука генератора.<br>
-**Depth** — Глубина модуляции LFO.<br>
-**Speed** — Скорость модуляции LFO.<br>
-**Attack** — Скорость нарастая громкости звука.<br>
-**Decay** — Скорость затухания громкости звука.<br>
-**Level** — Громкость.<p>
-**Noise** — Уровень громкости белого шума.<br>
-**Master** — Общий уровень громкости.<p>
-**Delay** — Уровень громкости дилея.<br>
-**Feedback** — Уровень обратной связи дилея (количество хвостов).<br>
-**Time** — Скорость дилея.<p>
-**Resonance** — Усиление среза частоты.<br>
-**Freq** — Частота среза фильтра.<br>
+**Per Voice:** Wave, Pitch, Depth, Speed, Attack, Decay, Level
+**Global:** Noise, Master, Delay (Time / Feedback / Level), Filter (Freq / Resonance)
 
-#### Ниже по ссылкам информация о том, что необходимо для сборки, как работает и другие подробности
+**Indicators**
++ Touch / Gate status
 
-### [Как работает](How%20it%20works/README.MD)
-### [Как собрать](How%20to%20assemble/README.MD)
-### [Схема в PDF](Schematic/Schematic_TouchDrone%20MK2_2022-10-09.pdf)
-### [Список Комплектующих](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/blob/main/BOM/README.MD)
-### [GERBER - Панель](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_PCB_Top.zip)
-### [GERBER - Основная плата](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_PCB_Mother.zip)
-### [GERBER - Нижнаяя плата](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_PCB_Low%20Mods.zip)
+**LFO activity**
++ Envelope activity
 
-![PCBT](Image/PCB%20T.png)
-![PCBB](Image/PCB%20B.png)
-![DNO](Image/DNO.png)
+
+#### Below are the links to information on what is needed for assembly, how it works, and other details.
+
+### [How it works](How%20it%20works/README.MD)
+### [Full Schematic in PDF](Schematic/Schematic_Mushsynth-8-(1.3-ver).pdf)
+### [BOM](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/blob/main/BOM/README.MD)
+### [GERBER - Top Panel](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_Mushsynth-8-(1.3-ver)_PCB_Top.zip)
+### [GERBER - Mother](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_Mushsynth-8-(1.3-ver)_PCB_Mother.zip)
+### [GERBER - Low Panel](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/PCB/Gerber_Mushsynth-8-(1.3-ver)_PCB_Low-Mods.zip)
+
+![PCBT](Image/Back.png)
+![PCBB](Image/FFC.png)
+![DNO](Image/MIDI.png)
