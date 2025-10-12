@@ -1,4 +1,4 @@
-### [Download xlsx](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/blob/main/BOM/Mushsynth-8 BOM.xlsx)
+### [Download xlsx](https://github.com/EugeneCarlo/Mushsynth-8_voice_drone_synth/raw/main/BOM/Mushsynth-8%20BOM.xlsx)
 
 
 ## Резисторы
