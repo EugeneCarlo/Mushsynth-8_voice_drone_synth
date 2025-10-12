@@ -95,7 +95,7 @@ The instrument was intentionally designed using simple and affordable components
 
 ---
 
-## 🔬 Индикация
+## Индикация
 
 + Состояние **сенсоров / GATE**
 + Активность **LFO**
